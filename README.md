@@ -1,27 +1,28 @@
-<!-- glavni naslov -->
-Računalniški praktikum
+<!-- glavni naslov -->  
+# Računalniški praktikum
+
 <!-- To je komentar, ki bo na prikazanem Markdown-u skrit. 
      V tem besedilu so v komentarjih napisana navodila za reševanje. -->
 
 <!-- 2. nivojski razdelek -->
-Bližnjice na tipkovnici
+## Bližnjice na tipkovnici
 
-_Kopiraj_ označeno v odložišče: Ctrl+C (**C**opy)  
-_Izreži_ označeno v odložišče: Ctrl+X  
-_Prilepi_ vsebino odložišča: Ctrl+V  
-_Ctrl+A_ (izbira besedila, ki ga lahko z bližnjico _Ctrl+C_ kopiram hitreje)  
-_Alt+Tab_ (hitro premikanje med odprtimi okni)  
-_Win+←→↑↓_ (hitro upravljanje z okni)
+-_Kopiraj_ označeno v odložišče: Ctrl+C (**C**opy)  
+-_Izreži_ označeno v odložišče: Ctrl+X  
+-_Prilepi_ vsebino odložišča: Ctrl+V  
+-_Ctrl+A_ (izbira besedila, ki ga lahko z bližnjico -_Ctrl+C_ kopiram hitreje)  
+-_Alt+Tab_ (hitro premikanje med odprtimi okni)  
+-_Win+←→↑↓_ (hitro upravljanje z okni)
 
 <!-- 2. nivojski razdelek -->
-Izvorna koda
+## Izvorna koda
 
 Včasih pride prav značka <kbd>kbd</kbd> za tipke. Značko uporabimo takole:  
 
 <!-- začetek bloka z izvorno kodo -->
 
-<kbd>Ctrl</kbd>
-
+ <kbd>Ctrl</kbd>
+##
 <!-- konec bloka z izvorno kodo -->
 
 <!-- 2. nivojski razdelek -->
