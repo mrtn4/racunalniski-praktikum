@@ -1,0 +1,70 @@
+/* * *  * * *  * * *  * * *  * * *
+Ta naloga je sestavljena iz dveh delov: HTML in CSS.
+Prvi del je v datoteki dokument.html.
+Pri točkovanju bomo upoštevali, ali (in do kakšne mere) je 
+izvorna koda dokumenta veljaven in urejen CSS.
+
+1. Sklop deklaracij za značko body dopolnite tako,
+   da bo velikost pisave nastavljena na 1.2 em
+2. Dodajte izbiralec za značke "img".
+   Dodajte deklaraciji za višino, tako da bo slika zasedla
+   celotno širino elementov, višina pa naj bo določena tako, 
+   da bo ohranjeno prvotno razmerje med višino in širino.
+3. Izbiralec za značko blockquote dopolnite tako, da bodo 
+   citati imeli ozadje barve rgb(51, 81, 126, 0.2),
+   rob pa naj bo širok 1px in enake barve, kot besedilo
+   glavnega naslova.
+
+ * * *  * * *  * * *  * * *  * * */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    max-width: 40em;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.2em;
+}
+ img {
+    width: 100%;
+    height: auto;
+}
+.hec {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    background-color: rgb(239, 32, 66);
+    color: white;
+    padding: 0.5em;
+    font-size: 1.7em;
+}
+
+blockquote {
+    font-size: 0.8em;
+    width: 50%;
+    float: right;
+    margin-right: 2em;
+    padding: 1em;
+    background-color: rgb(51, 81, 126, 0.2);
+    border: 1px solid rgb(51, 81, 126);
+}
+blockquote p {
+    font-style: italic;
+}
+
+
+
+h1 {
+    color: rgb(51, 81, 126);
+}
+
+h2 {
+    margin-top: 3em;
+    color: rgb(225, 127, 74);
+}
+
+dl dt {
+    font-weight: bold;
+    float: left;
+    margin-right: 1em;
+}
